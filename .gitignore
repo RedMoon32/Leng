@@ -1,4 +1,4 @@
 Translater/script.js
-.swp
-.db
+*.swp
+*.db
 venv/
