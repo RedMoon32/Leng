@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<link rel="icon" href="https://image.flaticon.com/icons/svg/201/201571.svg">
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('button').click(function() {
+				$.get("http://127.0.0.1:5002/", function(data, status){
+					$("body").append($('<p></p>').text(data.toString()));
+
+				})})
+		});
+
+	</script>
+</head>
+<body>
+	<button>Make request</button>
+	<p>Waiting for request</p>
+</body>
+</html>
