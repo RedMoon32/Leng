@@ -9,10 +9,11 @@ function checkURL(tabID, changeInfo, tab){
 		});
 	}
 }
+
 function sendText(info){
 	$.get(url+'add_word/1000/'+info.selectionText, function(data,status){
 		result=data;
-		if (result['result']!='OK'){
+		if (result['result']!=='OK'){
 			alert('Sorry, some error happened(');
 		}
 		else{
@@ -21,5 +22,5 @@ function sendText(info){
 	});
 	//console.log(info.selectionText);
 }
-chrome.tabs.onUpdated.addListener(checkURL);
+//chrome.tabs.onUpdated.addListener(checkURL);
 

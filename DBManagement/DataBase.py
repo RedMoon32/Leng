@@ -1,6 +1,7 @@
 from sqlite3 import *
 
-#TODO : rewrite db using ORM
+
+# TODO : rewrite db using ORM
 class Manager:
 
     def __init__(self):

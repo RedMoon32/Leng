@@ -1,7 +1,29 @@
 <html>
-<header><title>This is title</title></header>
-<body>
-Hello world
-</body>
+    <script src="jcookies.js"></script>
+    <script src="jquery.js"></script>
+    <script src="login.js"></script>
+    <header><title>This is title</title></header>
+    <body>
+    <p1 id="cook"> Last login with:</p1>
+    <script>
+        $('#cook').append(' ' + Cookies.get('key'));
+    </script>
+    </body>
+    <form id="target" action="">
+        Code received in browser:<br><br>
+        <input type="text" name="firstname" value="1000">
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <script>
+        $('#target').submit(function (event) {
+            event.preventDefault();
+            let key = $('#target').serializeArray()[0].value;
+            login(key);
+        });
+    </script>
+    <p id="results">
+    </p>
 </html>
 
