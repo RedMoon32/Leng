@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c316d511-3c9f-4490-9fc0-46b28d15258b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +77,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="316" />
-          <entry key="gitignore" value="50" />
+          <entry key="gitignore" value="51" />
           <entry key="html" value="826" />
           <entry key="js" value="622" />
           <entry key="md" value="534" />
@@ -90,7 +89,7 @@
           <entry key="HTML" value="826" />
           <entry key="JavaScript" value="622" />
           <entry key="Markdown" value="534" />
-          <entry key="PLAIN_TEXT" value="50" />
+          <entry key="PLAIN_TEXT" value="51" />
           <entry key="Python" value="4639" />
         </counts>
       </usages-collector>
@@ -170,7 +169,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -478,7 +477,7 @@
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19621213" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19621213" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Job Explorer" order="3" />
@@ -496,7 +495,7 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5121212" side_tool="true" weight="0.22276422" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4878788" visible="true" weight="0.22022839" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.4878788" visible="true" weight="0.22022839" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32843137" />
       <window_info anchor="bottom" id="Python Console" order="14" sideWeight="0.49772727" weight="0.32463294" />
       <window_info anchor="bottom" id="DB Execution Console" order="15" />
@@ -751,7 +750,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>

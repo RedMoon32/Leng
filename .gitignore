@@ -2,4 +2,4 @@ Translater/script.js
 *.swp
 *.db
 venv/
-.idea
+.idea/
